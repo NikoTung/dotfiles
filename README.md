@@ -2,7 +2,7 @@
 the dot files
 
 
-### use
+### usage
 
 * clone the repo
 * ln -s your_repo_path 
