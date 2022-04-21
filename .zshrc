@@ -20,8 +20,8 @@ source $ZSH/oh-my-zsh.sh
 alias gst="git status"
 alias gco="git checkout"
 alias gcm="git checkout master"
-alias gpull="git pull"
-alias gpush="git push"
+alias gpull="git pull origin"
+alias gpush="git push origin"
 alias gbranch="git checkout -b"
 alias gclone="git clone"
 
@@ -49,3 +49,9 @@ export PATH="$PATH:$HOME/dev/flutter/bin"
 
 # android sdk
 export ANDROID_HOME="$HOME/dev/android-sdk"
+
+# jdk
+export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
+export JAVA_12_HOME=$(/usr/libexec/java_home -v12)
+
+export JAVA_HOME=$JAVA_8_HOME
