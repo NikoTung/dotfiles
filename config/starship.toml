@@ -1,5 +1,6 @@
 format = """
 $username\
+$os\
 $directory\
 $git_branch\
 $git_commit\
@@ -10,7 +11,6 @@ $sudo\
 $cmd_duration\
 $battery\
 $status\
-$os\
 $character"""
 
 
@@ -29,10 +29,9 @@ symbol = '🌱 '
 [username]
 style_user = 'green bold'
 style_root = 'red bold'
-format = '[$user]($style) in '
+format = '[$user]($style) '
 disabled = false
-show_always = false
-
+show_always = true
 
 
 [status]
@@ -41,3 +40,8 @@ success_symbol = '🗸'
 format = '[\[$symbol$common_meaning$signal_name$maybe_int\]]($style) '
 map_symbol = true
 disabled = false
+
+[os]
+format = "on [($name )]($style)"	
+disabled = false
+style = "bold green"
