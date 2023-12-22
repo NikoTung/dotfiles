@@ -1,0 +1,43 @@
+format = """
+$username\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_metrics\
+$git_status\
+$sudo\
+$cmd_duration\
+$battery\
+$status\
+$os\
+$character"""
+
+
+[battery]
+full_symbol = "• "
+charging_symbol = "⇡ "
+discharging_symbol = "⇣ "
+unknown_symbol = "❓ "
+empty_symbol = "❗ "
+
+[git_branch]
+symbol = '🌱 '
+
+# ~/.config/starship.toml
+
+[username]
+style_user = 'green bold'
+style_root = 'red bold'
+format = '[$user]($style) in '
+disabled = false
+show_always = false
+
+
+
+[status]
+symbol = '❌'
+success_symbol = '🗸'
+format = '[\[$symbol$common_meaning$signal_name$maybe_int\]]($style) '
+map_symbol = true
+disabled = false
