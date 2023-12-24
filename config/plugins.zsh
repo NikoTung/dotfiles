@@ -8,7 +8,8 @@ zplug "zsh-users/zsh-syntax-highlighting"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-completions"
-zplug "plugins/tig", from:oh-my-zsh
+#zplug "plugins/tig", from:oh-my-zsh
+zplug "MenkeTechnologies/zsh-tig-plugin"
 zplug "agkozak/zsh-z"
 zplug birdhackor/zsh-exa-ls-plugin
 
