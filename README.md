@@ -10,6 +10,10 @@ the dot files
     * using the best way `curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh`
 * [eza](https://eza.rocks/)
 
+### Plugins
+
+For plugins, check it [here](./config/plugins.zsh)
+
 ### usage
 
 ```
