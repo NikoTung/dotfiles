@@ -42,5 +42,5 @@ map_symbol = true
 disabled = false
 
 [os]
-format = "on [$symbol]($style)"
+format = "[$symbol]($style)"
 disabled = false
