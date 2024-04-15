@@ -10,7 +10,6 @@ $git_status\
 $sudo\
 $cmd_duration\
 $battery\
-$status\
 $character"""
 
 
@@ -44,3 +43,7 @@ disabled = false
 [os]
 format = "[$symbol]($style)"
 disabled = false
+
+[character]
+success_symbol = '[➜](bold green) '
+error_symbol = '[➜](bold red) '
