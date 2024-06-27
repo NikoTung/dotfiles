@@ -17,6 +17,7 @@ For plugins, check it [here](./config/plugins.zsh)
 ### usage
 
 ```
+    ./setup.sh # install dependency
     ./install.sh install # adding soft link
     ./install.sh uninstall #remove soft link
 ```

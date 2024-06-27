@@ -2,3 +2,5 @@ config/office-private.zsh
 
 
 */**/.DS_Store
+
+.DS_Store
